@@ -1,0 +1,4 @@
+# file: C:\Users\there\KiroProjects\CardGame\src\systems\ui_manager.py
+# hypothesis_version: 6.151.9
+
+[0.25, 0.5, 100, 120, 128, 150, 165, 173, 200, 216, 230, 255, 350, 400, 600, 'A', 'AI WINS!', 'CLUB: Damage bonus!', 'Club', 'Diamond', 'HEART: Healing!', 'Heart', 'J', 'K', 'Q', 'Spade', 'TIE!', 'YOU WIN!', 'arial', 'color', 'text', 'timer', 'top', 'y_offset', '◆', '★']

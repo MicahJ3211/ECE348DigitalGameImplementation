@@ -1,0 +1,4 @@
+# file: C:\Users\there\KiroProjects\CardGame\src\scenes\game_over_scene.py
+# hypothesis_version: 6.151.9
+
+[100, 200, 'AI Wins!', 'Game Over', 'Menu', 'Tie!', 'You Win!', 'menu']

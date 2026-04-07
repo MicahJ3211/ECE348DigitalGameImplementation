@@ -1,0 +1,4 @@
+# file: C:\Users\there\KiroProjects\CardGame\src\config.py
+# hypothesis_version: 6.151.9
+
+[128, 220, 255, 720, 1280, '10', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'Club', 'Diamond', 'Heart', 'J', 'K', 'Q', 'Spade']

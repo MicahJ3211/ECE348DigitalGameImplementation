@@ -1,0 +1,4 @@
+# file: C:\Users\there\KiroProjects\CardGame\src\scenes\gameplay_scene.py
+# hypothesis_version: 6.151.9
+
+[100, 120, 140, 200, 250, 'AI Opponent', 'Heart', 'Round Complete', 'Select 3 Cards', 'You', 'animation', 'bottom', 'game_over', 'reveal', 'selection', 'show_abilities', 'show_results', 'top']

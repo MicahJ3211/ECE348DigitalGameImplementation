@@ -1,0 +1,4 @@
+# file: C:\Users\there\AppData\Roaming\Python\Python313\site-packages\pygame\freetype.py
+# hypothesis_version: 6.151.9
+
+['Font', 'STYLE_DEFAULT', 'STYLE_NORMAL', 'STYLE_OBLIQUE', 'STYLE_STRONG', 'STYLE_UNDERLINE', 'STYLE_WIDE', 'get_cache_size', 'get_default_font', 'get_error', 'get_fonts', 'get_init', 'get_version', 'init', 'match_font', 'quit', 'was_init']

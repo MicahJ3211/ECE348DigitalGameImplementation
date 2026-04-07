@@ -1,0 +1,4 @@
+# file: C:\Users\there\KiroProjects\CardGame\src\scenes\ai_results_scene.py
+# hypothesis_version: 6.151.9
+
+[100, 110, 120, 128, 130, 160, 180, 200, 220, 255, 260, 380, 440, 500, 510, 580, 680, 780, 880, 1000, '#', '10', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'Back', 'Club', 'Diamond', 'Heart', 'J', 'K', 'Menu', 'P1 Deck', 'P1 HP', 'P1 Vault', 'P2 Deck', 'P2 HP', 'P2 Vault', 'Q', 'Reason', 'Rnds', 'Run Again', 'Simulation Results', 'Spade', 'Tie', 'View', 'Winner', 'menu']

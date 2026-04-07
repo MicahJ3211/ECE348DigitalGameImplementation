@@ -1,0 +1,4 @@
+# file: C:\Users\there\KiroProjects\CardGame\src\scenes\ai_select_scene.py
+# hypothesis_version: 6.151.9
+
+[100, 130, 150, 160, 200, 255, 500, 'Choose AI 1', 'Choose AI 2', 'Ready to Simulate', 'Simulate 40', 'ai_results', 'menu']

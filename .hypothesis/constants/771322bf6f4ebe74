@@ -1,0 +1,4 @@
+# file: C:\Users\there\KiroProjects\CardGame\src\scenes\__init__.py
+# hypothesis_version: 6.151.9
+
+['GameOverScene', 'GameplayScene', 'MenuScene', 'Scene']
