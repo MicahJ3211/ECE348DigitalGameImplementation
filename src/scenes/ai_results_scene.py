@@ -40,14 +40,14 @@ class AIResultsScene(Scene):
 
     def update(self, delta_time: float) -> None:
         if not self.simulated and self.ai1 and self.ai2:
-            self.batch_result = run_batch(self.ai1, self.ai2, num_games=40)
+            self.batch_result = run_batch(self.ai1, self.ai2, num_games=200)
             self.simulated = True
 
     def render(self) -> None:
         self.screen.fill(BLACK)
 
         if not self.simulated:
-            loading = self.font.render("Simulating 40 games...", True, WHITE)
+            loading = self.font.render("Simulating 200 games...", True, WHITE)
             self.screen.blit(loading, loading.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)))
             return
 
@@ -96,7 +96,8 @@ class AIResultsScene(Scene):
             f"{b.ai1_name}: {b.ai1_wins}W ({ai1_pct*100:.0f}%)   "
             f"Ties: {b.ties}   "
             f"{b.ai2_name}: {b.ai2_wins}W ({ai2_pct*100:.0f}%)   "
-            f"Avg rounds: {b.avg_rounds:.1f}",
+            f"Avg rounds: {b.avg_rounds:.1f}   "
+            f"Avg vault diff: {b.avg_vault_diff:.1f}",
             True, GRAY)
         self.screen.blit(stats, stats.get_rect(center=(SCREEN_WIDTH // 2, y + 8)))
         y += 28

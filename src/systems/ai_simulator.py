@@ -67,6 +67,11 @@ class BatchResult:
     def avg_rounds(self) -> float:
         return sum(g.rounds for g in self.games) / max(1, len(self.games))
 
+    @property
+    def avg_vault_diff(self) -> float:
+        """Average absolute difference between P1 and P2 vault sizes."""
+        return sum(abs(g.p1_vault - g.p2_vault) for g in self.games) / max(1, len(self.games))
+
 
 def simulate_game(ai1: AIStrategy, ai2: AIStrategy, max_rounds: int = 100) -> SimulationResult:
     """Run a single headless game between two AIs."""

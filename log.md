@@ -1,6 +1,29 @@
 # Change Log
 
+## 2026-04-05
+
+### Simulation increased to 200 games
+- AI Battle simulation now runs 200 games instead of 40
+- Button text and loading message updated to reflect the new count
+
+### Average vault difference stat
+- Added average absolute vault size difference to simulation results summary
+- Shows how far apart P1 and P2 vault sizes typically end up across all games
+
 ## 2026-04-01
+
+### Card drafting phase
+- Clicking "Play" on the menu now starts a draft phase before gameplay
+- All 52 cards displayed in a grid sorted by suit, player and AI take turns picking one card at a time
+- 50% chance who picks first each game
+- AI picks from its top 5 highest-value available cards with some randomness
+- Picked cards shown dimmed with "YOU" (blue) or "AI" (red) labels
+- Yellow hover highlight on available cards during player's turn
+- Player's drafted cards shown as a mini-card bar at the bottom
+- Draft count displayed (You: X/26, AI: X/26)
+- Press SPACE when draft is complete to start gameplay with the drafted decks
+- ESC returns to menu during draft
+- GameplayScene updated to accept pre-drafted card lists
 
 ### AI Battle simulation mode
 - Added "AI Battle" button to main menu

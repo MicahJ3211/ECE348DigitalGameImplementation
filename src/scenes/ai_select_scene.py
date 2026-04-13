@@ -81,7 +81,7 @@ class AISelectScene(Scene):
         # Start button (only when both selected)
         if self.selected[0] is not None and self.selected[1] is not None:
             pygame.draw.rect(self.screen, GREEN, self.start_button)
-            start_text = self.small_font.render("Simulate 40", True, BLACK)
+            start_text = self.small_font.render("Simulate 200", True, BLACK)
             start_rect = start_text.get_rect(center=self.start_button.center)
             self.screen.blit(start_text, start_rect)
 
